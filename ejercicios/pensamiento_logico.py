@@ -45,10 +45,23 @@ if(numero_usuario != numero_random):
 
 numero_verificar = int(input("Inserta por favor el numero que desea saber si es primo o no: "))
 
-if(numero_verificar % 1 == 0 and numero_verificar % numero_verificar == 0):
-    print("El numero es primo")
+if (numero_verificar < 2):
+    print("El numero no es primo")
 else:
-    print("El numero no es primo, es compuesto")
+    es_primo = True
+    for i in range(2, numero_verificar):
+        if(numero_verificar % i == 0):
+            es_primo = False
+            break
+            
+    if(es_primo):
+        print("El numero es primo")
+    else:
+        print("El numero no es primo")
+
+
+
+
 
 
 

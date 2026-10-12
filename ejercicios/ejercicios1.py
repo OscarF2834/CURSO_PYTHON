@@ -19,3 +19,10 @@ print(f"El curso de dalto tiene un {prom_duracion_lento} % menos que el curso ma
 
 prom_duracion_prome = 100 - (dalto_curso/otros_cursos_prom * 100)
 print(f"El curso de dalto tiene un {prom_duracion_prome} % menos que el curso promedio de duracion")
+
+#parte b, la de los crudos
+
+crudo_promedio = 5
+crudo_dalto = 3.5
+
+porcentaje_crudo_promedio = 100 - ()

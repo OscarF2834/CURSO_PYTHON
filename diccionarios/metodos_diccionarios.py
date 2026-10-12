@@ -13,7 +13,7 @@ valor_de_jajsjs = diccionario.get("jsjsjjsj")
 #eliminando un elemento del diccionario
 valor_eliminado = diccionario.pop("subs")
 
-#obteniendo un diccionario iterable, osea que se puede recorrer. dicc_items
+#obteniendo un diccionario iterable, osea que se puede recorrer. dicc_items, lo vuelve como una lista
 dicc_items = diccionario.items()
 
 #eliminando todos los elementos del diccionario
